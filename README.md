@@ -6,7 +6,7 @@ This is not a project to develop something. I have created it to get the idea of
 
 ### The Workflow
 
-1. Process of changes in a Base Image (e.g a new php module is necessary or updates in the nginx are necessary)
+### Process of changes in a Base Image (e.g a new php module is necessary or updates in the nginx are necessary)
   1. Download a base (nginx/php) image from docker
   2. Customize this image for your specific requirements and the specific project
   3. Operation Push the new code to the repository
@@ -14,7 +14,7 @@ This is not a project to develop something. I have created it to get the idea of
   5. Basic CI Tests on the base images
   6. Pipeline uploads the base image to a docker hub or another private docker repository
 
-2. Development Image
+### Development Image
   1. Developer get automatically informed via Email,Slack,Teams that a new image is ready
   2. Developer stop working with his actually development
   3. Download the latest created image
@@ -25,12 +25,6 @@ This is not a project to develop something. I have created it to get the idea of
   8. If the pipeline is finished, it creates automatically a pull request and inform other developers
 
 
-3. Deployment 
+### Deployment 
   1. If the pull request get merged and the pipline track changes in the directory app, the deployment pipeline automatically started
   2. The C
-
-
-1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
