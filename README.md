@@ -43,6 +43,10 @@ It contains all project files, buisness logic and requiered for deployments. No 
   8. If the pipeline is finished, it automatically creates a pull request and informs other developers
 
 
-### Deployment 
-  1. If the pull request is merged and the pipline detect changes in the specific "app" directory, the deployment pipeline automatically starts
-  2. The C
+### CI 
+  1. If the pull request is merged and the pipline detect changes in the specific "app" directory, the production deployment pipeline automatically starts
+  2. The *base image* + Stage ENV Variables + the latest code from the "app" directory starts in the staging setup
+  3. Other necessary containers (latest database, images, ...) starts on the staging setup
+  4. The CI start tests to proove if this container is really production ready
+  5. The developer check the most important functions, manually
+
