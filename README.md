@@ -1,5 +1,10 @@
 # shopware-docker-workflow-to-aws
 
+### Todo
+multitarget and multistage 
+
+
+
 ## What is this project about?
 This is not a project to develop something. I have created it, to get the idea or inspiration of a Workflow for Docker images, development, CI/CD and deployment
 
