@@ -32,7 +32,7 @@ It contains all project files and the buisness logic. No app related code should
 Create a config folder for you specific configs. Try to separate the prod, stage and dev configs and get a better overview.
 
 
-### The complete Workflow
+## The complete Workflow
 
 ### Process of changes in a Base Image (e.g a new php module is necessary or updates in the nginx configs are necessary)
   1. Download official (nginx/php) image from docker
@@ -64,10 +64,27 @@ Create a config folder for you specific configs. Try to separate the prod, stage
   6. If the CI pipeline is finished, the developer needs to click manually on the "deploy" button to start the deployment
 
 ### CD 
-  1.  The production ready container (with the latest developed code) gets pushed to the AWS ECR 
-      (Optionally: In some cases it can be very helpful to also push this image with another tag to your local docker repository)
-  3.  AWS "Code Pipeline" watches for changes in AWS ECR (You can choose the ECR Repository and a specific tag)
-  4.  The Pipeline in AWS starts and deploys the container with your configured deployment strategie
+  1. The production ready container (with the latest developed code) gets pushed to the AWS ECR 
+     (Optionally: In some cases it can be very helpful to also push this image with another tag to your local docker repository)
+  3. AWS "Code Pipeline" watches for changes in AWS ECR (You can choose the ECR Repository and a specific tag)
+  4. The Pipeline in AWS starts and deploys the container with your configured deployment strategie
+  5. Choose the best deployment strategie for docker deployment. Do not use AllAtOnce if you can not handle service interuptions
+  6. Now, AWS should automaticallly deploy your container
+
+## Short FAQ?
+
+### How do we add other necessary containers?
+If you need this container only for development, it can be added in the docker-compose file for the part development
+If you need a container later on producation (redis), you need to inform your Operations Team, because you need redis. They can create a new base image an
+ 
+
+
+
+
+
+
+
+
 
 
 
