@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-04T11:44:17.274Z" agent="5.0 (X11)" etag="cFKh3WVzlmtNZfch70kn" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-04T11:45:26.021Z" agent="5.0 (X11)" etag="JFBhvLTa4xjB54XXCbmg" version="14.7.6" type="github">
   <diagram id="eY2XkMm_xlo1i0T8t892" name="Page-1">
-    <mxGraphModel dx="3470" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2285" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -613,8 +613,8 @@
             <mxPoint x="-420" y="443" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bsg7gE1qALxVkfFB9fyE-5" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Do not mix the workflows&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;1. Workflow only for changes in docker container and his config&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;2. Workflow is only for changes in the app folder&lt;/b&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-1070.5" y="450" width="487.5" height="100" as="geometry" />
+        <mxCell id="bsg7gE1qALxVkfFB9fyE-5" value="&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;Do not mix the workflows!&lt;br style=&quot;font-size: 20px&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;1. Workflow only for service (nginx, mysql) configs changes&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px&quot;&gt;&lt;b style=&quot;font-size: 20px&quot;&gt;2. Workflow is only for changes in the /app folder&lt;/b&gt;&lt;br style=&quot;font-size: 20px&quot;&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1082" y="450" width="487.5" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
