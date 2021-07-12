@@ -20,16 +20,16 @@ The production ready container is the combination of the following:
 
 
 ## Rules for the *base image*
-- It **always** consists of a **official** docker hub container ([npm](https://hub.docker.com/_/node)[nginx](https://hub.docker.com/_/nginx), [php](https://hub.docker.com/_/php), [Apache](https://hub.docker.com/_/httpd))
+- It **always** consists of an **official** docker hub container ([npm](https://hub.docker.com/_/node)[nginx](https://hub.docker.com/_/nginx), [php](https://hub.docker.com/_/php), [Apache](https://hub.docker.com/_/httpd))
 - Never use the **latest** tag from docker hub
-- Operation can customize this image and upload it to a private docker repository
+- Operations can customize this image and upload it to a private docker repository
 - Even if there are zero changes in the image it is get uploaded to a private docker repository
 
 ## "app" folder
 It contains all project files and the buisness logic. No app related code should be in the root directory
 
 ## config folder (recommended)
-Create a config folder for you specific configs. Try to separate the prod, stage and dev configs and get a better overview.
+Create a config folder for you specific configs. Try to separate the prod, stage and dev configs to get a better overview.
 
 
 ## The complete Workflow
